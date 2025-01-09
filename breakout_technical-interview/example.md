@@ -33,5 +33,31 @@ const employees = [
 Please provide your solution below.
 
 ```js
-// Solution here
+/**
+ * Retrieve list of employee names from a specified department
+ *
+ * @param {string[][]} employees
+ * @param {string} department
+ * @return {string[]}
+ */
+function getEmployeesByDepartment(employees, department) {
+	const employeeNames = [];
+
+	// Processing
+	// - Loop through employees array (for of)
+	employees.forEach(function(employee) {
+		// - Check if the employee array contains the department name (.includes)
+		const employeeDepartment = employee[2];
+		if (employeeDepartment === department) {
+			// - Get the name of the employee employee[0]
+			const employeeName = employee[0];
+			// - Push it into the employeeNames array
+			employeeNames.push(employeeName);
+		}
+	})
+
+	return employeeNames;
+}
+
+console.log("getEmployeesByDepartment(employees, 'Engineering')", getEmployeesByDepartment(employees, 'Engineering')); // ['John Doe', 'David Lee']
 ```

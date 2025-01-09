@@ -2,35 +2,61 @@
 
 ### To Do
 
-- [ ] Approaching Whiteboard Questions
-- [ ] Examples
+- [x] Types of Interviews
+- [x] Types of Questions
+- [x] Problem Solving Process
+- [x] Online Practice
+- [x] Example prompts
+- [x] Interview Review
 
-### Approaching Whiteboard Questions
+### Types of Interviews
 
-- Physical whiteboard, paper, Google Jamboard, Word document...
-- Not necessarily looking for 100% syntax accuracy
+- Culture fit - a meeting to get to know you and your personality to see if you'll work well with the current team
+- White board - no VS Code, no autocomplete, just you and a marker vs the problem
+- Take home challenge - you are provided with a small project to complete before a deadline (usually 1 - 4 days)
+- Pair programming - working with the interviewer to solve a problem
 
-### Mindset during the problem solving
+### Types of Questions
 
-- Most important part is the logical steps
-  - How should we solve this?
-  - Is there a built-in method that would help here?
-  - If statement?
-  - For loop? What kind of loop?
-- Take your time, breathe, think...
-- **READ** the prompt, understand what it is asking
-  - Consider doing this aloud
-- Ask questions!
-- Speak through your solution
+- Technical Experience
+  - Recall a time when you exhibited X quality
+  - What sort of experience do you have with X?
+  - If you were to experience X error, how would you troubleshoot it?
+- Coding challenge
+  - Write code that solves a particular problem
+- Code review
+  - Read the code provided and explain what it does or how it could be improved
+  - Review code from one of your previous projects with the interviewer
 
-### Problem solving
+### Problem Solving Process
 
-1. Input(s) - What is the input? Where does it come from?
-2. Output(s) - What is the end result/value?
-3. Processing - How do we get from input to output?
+- Vocalize your thoughts and decision making process
+- Have you seen this type of question before?
+- Break the problem down into smaller pieces
+- Use pseudocode/write down the problem solving steps
+- Work incrementally towards the goal
+- Ask clarifying questions
+  - Confirm the inputs (eg. how many arguments, argument types)
+  - Confirm the output (eg. console.log or return?)
+  - Clarify functionality (eg. happy path only? edge cases to consider? how to handle errors?)
+  - Clarify expected syntax (eg. can I use pseudocode? does the code need to run?)
+- Don't be afraid to say "I don't know"
+- Discuss alternate solutions/how this code could be improved
 
-- Break things down into major steps
-- Break down those major steps into smaller steps
-- Keep breaking down steps until you can't anymore
+### Online Practice
 
-### Example
+- [LeetCode Practice Questions](https://leetcode.com/problemset/all/)
+- [CodinGame](https://www.codingame.com/start)
+- [Advent of Code](https://adventofcode.com/)
+
+### Interview Review
+
+- Did anything unexpected happen? (eg. a word/term you'd never heard or a question you'd never seen)
+- What went well? What parts of the interview were you happiest with?
+- What went poorly? What parts of the interview could be improved on?
+- Based on your interaction with the interviewer, is this an employer you'd like to work for?
+
+### Useful Links
+
+- [FreeCodeCamp](https://www.freecodecamp.org/)
+- [JavaScript Coding Interview Practice – Sample Interview Questions and Solutions](https://www.freecodecamp.org/news/javascript-coding-interview-practice/)
